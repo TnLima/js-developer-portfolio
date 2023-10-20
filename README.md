@@ -6,7 +6,7 @@ Publicando Seu Portfólio Profissional no GitHub Pages
 ## Contexto
 Página que engloba meu currículo e portifolio em uma só aplicação.
 
-![phone-print](https://github.com/TnLima/dio-logica-desafio03/blob/assets/img/mobile.png)
+![phone-print](https://github.com/TnLima/js-developer-portfolio/blob/main/assets/img/mobile.png)
 
 ## Contato
  - [Linkedin](https://www.linkedin.com/in/thiago-de-lima-980977134/)
