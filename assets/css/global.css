@@ -1,6 +1,12 @@
+:root {
+    --preto: #242222;
+    --amarelo: #FFDF00;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+
 }
 
 @font-face {
@@ -10,11 +16,11 @@
 
 body {
     background-color: #000;
-    color: #fff;
+    color: var(--preto);       
 }
 
 a {
-    color: #fff;
+    color: var(--preto);
     text-decoration: none;
 }
 
@@ -22,17 +28,24 @@ a:hover {
     text-decoration: underline;
 }
 
+.icones{
+    height: 60px;    
+}
+
+.icones:hover {
+    scale: 120%;
+}
+
 .main {
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid #fff;
-    border-radius: 1rem;
+    border: 4px solid #242222;
+    border-radius: 8px;
 }
 
 .main::before,
 .main::after {
     content: '';
-    background-image: url('../img/background.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -42,6 +55,7 @@ a:hover {
     width: 140vw;
     height: 100vh;
     z-index: -1;
+    background-color: rgb(247, 247, 247);
 }
 
 .main::after {
@@ -58,7 +72,7 @@ a:hover {
     .main {
         max-width: 1024px;
         margin: 1rem auto;
-    }
+    }               
 
     .main::before,
     .main::after {

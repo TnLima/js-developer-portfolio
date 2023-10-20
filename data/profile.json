@@ -1,36 +1,35 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
+  "name": "Thiago Lima",
+  "photo": "https://avatars.githubusercontent.com/u/93764492?v=4",
+  "job": "Desenvolvedor Freelancer",
   "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "email": "thi.neveslima@gmail.com",
+  "phone": "(11) 90000-0000",
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
+        "name": "Javascript",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
-      },
-      {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
-      },
+        "name": "C#",
+        "logo": "assets/img/icons/tools/csharp.svg"
+      },     
       {
         "name": "React",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
       },
       {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "name": "Html",
+        "logo": "assets/img/icons/tools/html.png"
       },
+
       {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "CSS",
+        "logo": "assets/img/icons/tools/css.svg"
       }
+
+    
     ],
     "softSkills": [
       "Empatia",
@@ -42,22 +41,50 @@
   },
   "languages": [
     "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Inglês (Avançado)"
   ],
+
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Clone do site Rocketseat",
+      "url": "https://tnlima.github.io/rocketseat-clone/",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Clone do site DIO",
+      "url": "https://tnlima.github.io/dio-clone/",
       "github": true
     }
   ],
+
+  "certifications": [
+
+    {
+      "nome": "Responsive Web Design",
+      "instituicao": "FreeCodeCamp",
+      "url": "https://www.freecodecamp.org/certification/tnlima/responsive-web-design" 
+    },
+
+    {
+      "nome": "EF Set English Certificate 58/100 (B2 Upper Intermediate)",
+      "instituicao": "EF Set",
+      "url": "https://www.efset.org/cert/XXbVXV" 
+    },
+
+    {
+      "nome": "Formação em Lógica de Programação",
+      "instituicao": "Digital Inovation One",
+      "url": "https://www.dio.me/certificate/DB1E4646" 
+    },
+
+    {
+      "nome": "Formação em Liderança",
+      "instituicao": "Escola Conquer",
+      "url": "https://www.conquerplus.com.br/certificates/bfb0fe8d-f3c6-47a5-bfff-0acdbaaead2c?enrollment" 
+    } 
+
+  ],
+
   "professionalExperience": [
     {
       "name": "Arquiteto de software / S3 BANK",

@@ -11,15 +11,15 @@ function updateProfileInfo(profileData) {
     job.innerText = profileData.job
 
     const location = document.getElementById('profile.location')
-    location.innerText = profileData.location
-
-    const phone = document.getElementById('profile.phone')
-    phone.innerText = profileData.phone
-    phone.href = `tel:${profileData.phone}`
+    location.innerText = profileData.location    
 
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
+
+    // const phone = document.getElementById('profile.phone')
+    // phone.innerText = profileData.phone
+    // phone.href = `tel:${profileData.phone}`
 }
 
 function updateSoftSkills(profileData) {
@@ -49,18 +49,34 @@ function updatePortfolio(profileData) {
     }).join('')
 }
 
+//experiencia de trabalho
+// function updateProfessionalExperience(profileData) {
+//     const professionalExperience = document.getElementById('profile.professionalExperience')
+//     professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
+//         return `
+//             <li>
+//                 <h3 class="title">${experience.name}</h3>
+//                 <p class="period">${experience.period}</p>
+//                 <p>${experience.description}</p>
+//             </li>
+//         `
+//     }).join('')
+// }
+
+//certificados
 function updateProfessionalExperience(profileData) {
-    const professionalExperience = document.getElementById('profile.professionalExperience')
-    professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
-        return `
-            <li>
-                <h3 class="title">${experience.name}</h3>
-                <p class="period">${experience.period}</p>
-                <p>${experience.description}</p>
-            </li>
-        `
-    }).join('')
+        const professionalExperience = document.getElementById('profile.professionalExperience')
+    professionalExperience.innerHTML = profileData.certifications.map(experience => {
+            return `
+                <li>
+                    <h3 class="title">${experience.nome}</h3>
+                    <p class="period">${experience.instituicao}</p>
+                    <a href="${experience.url}">Link para o certificado</a>
+                </li>
+            `
+        }).join('')
 }
+    
 
 (async () => {
     const profileData = await fetchProfileData()
